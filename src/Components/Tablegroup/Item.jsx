@@ -1,11 +1,11 @@
 import React from "react";
 
-function Item(props) {
+const Item = props => {
   let hour = props.hour > 12 ? props.hour - 12 : props.hour;
   let active =
     Number(props.startTime) <= hour && hour <= Number(props.startTime) + 1
-      ? (active = "active")
-      : (active = "");
+      ? "active"
+      : null;
   let coords = props.coord.split(",");
 
   return (
@@ -29,6 +29,6 @@ function Item(props) {
       <td>{props.startTime}:00 am/pm</td>
     </tr>
   );
-}
+};
 
 export default Item;
