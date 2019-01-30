@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://garretble.github.io/FF14-Nodes",
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "^2.1.3"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
